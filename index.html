@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <meta
+    name="description"
+    content="Café especial brasileiro, selecionado na origem e entregue fresco na sua casa."
+  />
+
+  <meta
+    property="og:title"
+    content="Raiz — Café recém-torrado, direto da origem"
+  />
+
+  <meta
+    property="og:description"
+    content="Cafés brasileiros selecionados na origem e entregues frescos na sua casa."
+  />
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <link
+    rel="icon"
+    href="favicon.svg"
+    type="image/svg+xml"
+  />
+
+  <title>Raiz — Café recém-torrado, direto da origem</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+</head>
+
+<body>
+
+  <!-- =========================
+       HEADER
+  ========================== -->
+
+  <a
+    href="#topo"
+    class="skip-link"
+  >
+    Pular para o conteúdo
+  </a>
+
+  <header class="site-header">
+
+    <div class="container site-header__inner">
+
+      <a
+        href="#topo"
+        class="site-header__logo"
+      >
+        Raiz
+      </a>
+
+      <button
+        class="nav-toggle"
+        id="nav-toggle"
+        aria-expanded="false"
+        aria-controls="main-nav"
+        aria-label="Abrir menu de navegação"
+      >
+
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+
+      </button>
+
+      <nav
+        class="main-nav"
+        id="main-nav"
+        aria-label="Navegação principal"
+      >
+
+        <ul class="main-nav__list">
+
+          <li>
+            <a
+              class="main-nav__link"
+              href="#como-funciona"
+            >
+              Como funciona
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="main-nav__link"
+              href="#origem"
+            >
+              Nossos cafés
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="main-nav__link"
+              href="#planos"
+            >
+              Planos
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a
+        href="#planos"
+        class="btn btn--primary site-header__cta"
+      >
+        Assinar agora
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <section
+      class="hero"
+      id="topo"
+    >
+
+      <div class="container hero__inner">
+
+        <div class="hero__text reveal">
+
+          <p class="hero__eyebrow">
+            Café especial brasileiro
+          </p>
+
+          <h1 class="hero__title">
+            Café recém-torrado,
+            <span>direto da origem</span>
+            até a sua xícara.
+          </h1>
+
+          <p class="hero__subtitle">
+            Grãos selecionados de produtores brasileiros,
+            torrados sob encomenda e entregues frescos
+            na sua casa.
+          </p>
+
+          <div class="hero__actions">
+
+            <a
+              href="#planos"
+              class="btn btn--primary btn--large"
+            >
+              Ver planos
+            </a>
+
+            <a
+              href="#origem"
+              class="hero__secondary-link"
+            >
+              Conheça nossos cafés →
+            </a>
+
+          </div>
+
+          <div class="hero__note">
+            Torra fresca · Café brasileiro · Entrega recorrente
+          </div>
+
+        </div>
+
+
+        <div
+          class="hero__visual reveal"
+          aria-hidden="true"
+        >
+
+          <div class="coffee-orbit">
+
+            <div class="coffee-circle">
+
+              <svg
+                viewBox="0 0 320 320"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+
+                <circle
+                  cx="160"
+                  cy="160"
+                  r="150"
+                  fill="var(--color-accent-warm)"
+                />
+
+                <path
+                  d="M90 130 h140 a10 10 0 0 1 10 10 v40 a80 80 0 0 1 -160 0 v-40 a10 10 0 0 1 10 -10 z"
+                  fill="var(--color-bg-light)"
+                />
+
+                <path
+                  d="M235 150 h20 a20 20 0 0 1 0 40 h-20"
+                  fill="none"
+                  stroke="var(--color-bg-light)"
+                  stroke-width="10"
+                />
+
+                <path
+                  d="M115 100 q10 -20 0 -40"
+                  fill="none"
+                  stroke="var(--color-bg-light)"
+                  stroke-width="8"
+                  stroke-linecap="round"
+                />
+
+                <path
+                  d="M150 100 q10 -20 0 -40"
+                  fill="none"
+                  stroke="var(--color-bg-light)"
+                  stroke-width="8"
+                  stroke-linecap="round"
+                />
+
+              </svg>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         COMO FUNCIONA
+    ========================== -->
+
+    <section
+      class="steps"
+      id="como-funciona"
+    >
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-eyebrow">
+            Simples assim
+          </p>
+
+          <h2 class="section-title">
+            Como funciona
+          </h2>
+
+        </div>
+
+
+        <ol class="steps__list">
+
+          <li class="steps__item reveal">
+
+            <span class="steps__number">
+              01
+            </span>
+
+            <div>
+
+              <h3 class="steps__title">
+                Escolha seu plano
+              </h3>
+
+              <p>
+                Selecione a quantidade de café e a
+                frequência de entrega que fazem sentido
+                para sua rotina.
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <li class="steps__item reveal">
+
+            <span class="steps__number">
+              02
+            </span>
+
+            <div>
+
+              <h3 class="steps__title">
+                Torramos sob encomenda
+              </h3>
+
+              <p>
+                Cada lote é torrado poucos dias antes
+                do envio, preservando aroma e sabor.
+              </p>
+
+            </div>
+
+          </li>
+
+
+          <li class="steps__item reveal">
+
+            <span class="steps__number">
+              03
+            </span>
+
+            <div>
+
+              <h3 class="steps__title">
+                Você recebe em casa
+              </h3>
+
+              <p>
+                O pacote chega fresco, com data de torra
+                e informações da origem do grão.
+              </p>
+
+            </div>
+
+          </li>
+
+        </ol>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ORIGENS / PRODUTOS
+    ========================== -->
+
+    <section
+      class="origins"
+      id="origem"
+    >
+
+      <div class="container">
+
+        <div class="section-heading section-heading--light reveal">
+
+          <p class="section-eyebrow">
+            Escolha sua origem
+          </p>
+
+          <h2 class="section-title">
+            Três regiões,
+            três perfis de sabor.
+          </h2>
+
+          <p class="section-intro">
+            Descubra diferentes características do café
+            brasileiro e encontre o perfil que combina
+            com você.
+          </p>
+
+        </div>
+
+
+        <div class="origins__grid">
+
+
+          <!-- CERRADO -->
+
+          <article class="origin-card reveal">
+
+            <div class="origin-card__image">
+
+              <img
+                src="cerrado-mineiro.png"
+                alt="Café Gourmet Cerrado Mineiro"
+                loading="lazy"
+              >
+
+              <span class="origin-card__tag">
+                Cerrado Mineiro
+              </span>
+
+            </div>
+
+            <div class="origin-card__content">
+
+              <p class="origin-card__region">
+                Minas Gerais
+              </p>
+
+              <h3 class="origin-card__title">
+                Cerrado Mineiro
+              </h3>
+
+              <p class="origin-card__text">
+                Corpo encorpado e notas de castanha
+                e chocolate. Ideal para quem gosta
+                de um café mais intenso.
+              </p>
+
+              <div class="origin-card__footer">
+
+                <span>
+                  250g
+                </span>
+
+                <a
+                  href="#planos"
+                  class="origin-card__link"
+                >
+                  Escolher →
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- SUL DE MINAS -->
+
+          <article class="origin-card reveal">
+
+            <div class="origin-card__image">
+
+              <img
+                src="sul-de-minas.png"
+                alt="Café Gourmet Sul de Minas"
+                loading="lazy"
+              >
+
+              <span class="origin-card__tag">
+                Sul de Minas
+              </span>
+
+            </div>
+
+            <div class="origin-card__content">
+
+              <p class="origin-card__region">
+                Minas Gerais
+              </p>
+
+              <h3 class="origin-card__title">
+                Sul de Minas
+              </h3>
+
+              <p class="origin-card__text">
+                Doçura equilibrada com acidez suave
+                e notas de caramelo. Um perfil
+                versátil para todos os dias.
+              </p>
+
+              <div class="origin-card__footer">
+
+                <span>
+                  250g
+                </span>
+
+                <a
+                  href="#planos"
+                  class="origin-card__link"
+                >
+                  Escolher →
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- MANTIQUEIRA -->
+
+          <article class="origin-card reveal">
+
+            <div class="origin-card__image">
+
+              <img
+                src="mantiqueira-de-minas.png"
+                alt="Café Gourmet Mantiqueira de Minas"
+                loading="lazy"
+              >
+
+              <span class="origin-card__tag">
+                Mantiqueira
+              </span>
+
+            </div>
+
+            <div class="origin-card__content">
+
+              <p class="origin-card__region">
+                Minas Gerais
+              </p>
+
+              <h3 class="origin-card__title">
+                Mantiqueira de Minas
+              </h3>
+
+              <p class="origin-card__text">
+                Cultivado em altitude, com acidez
+                cítrica marcante e notas florais.
+              </p>
+
+              <div class="origin-card__footer">
+
+                <span>
+                  250g
+                </span>
+
+                <a
+                  href="#planos"
+                  class="origin-card__link"
+                >
+                  Escolher →
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PLANOS
+    ========================== -->
+
+    <section
+      class="pricing"
+      id="planos"
+    >
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <p class="section-eyebrow">
+            Para cada rotina
+          </p>
+
+          <h2 class="section-title">
+            Escolha seu plano
+          </h2>
+
+          <p class="section-intro">
+            Café fresco chegando na sua porta sem
+            você precisar lembrar de comprar.
+          </p>
+
+        </div>
+
+
+        <div class="pricing__list">
+
+
+          <!-- PLANO 1 -->
+
+          <article class="plan reveal">
+
+            <div class="plan__top">
+
+              <span class="plan__label">
+                Para experimentar
+              </span>
+
+              <h3 class="plan__title">
+                Essencial
+              </h3>
+
+              <p class="plan__price">
+                R$ 39
+                <span class="plan__price-period">
+                  /mês
+                </span>
+              </p>
+
+            </div>
+
+            <p class="plan__desc">
+              250g por mês, de uma origem à sua escolha.
+            </p>
+
+            <ul class="plan__features">
+
+              <li>
+                ✓ 250g de café
+              </li>
+
+              <li>
+                ✓ Escolha da origem
+              </li>
+
+              <li>
+                ✓ Torra fresca
+              </li>
+
+              <li>
+                ✓ Entrega mensal
+              </li>
+
+            </ul>
+
+            <a
+              href="#"
+              class="btn btn--outline plan__button"
+            >
+              Assinar
+            </a>
+
+          </article>
+
+
+          <!-- PLANO DESTAQUE -->
+
+          <article class="plan plan--featured reveal">
+
+            <div class="plan__featured-label">
+              Mais escolhido
+            </div>
+
+            <div class="plan__top">
+
+              <span class="plan__label">
+                Para sua casa
+              </span>
+
+              <h3 class="plan__title">
+                Casa
+              </h3>
+
+              <p class="plan__price">
+                R$ 69
+                <span class="plan__price-period">
+                  /mês
+                </span>
+              </p>
+
+            </div>
+
+            <p class="plan__desc">
+              500g por mês, com rotação entre
+              as três origens.
+            </p>
+
+            <ul class="plan__features">
+
+              <li>
+                ✓ 500g de café
+              </li>
+
+              <li>
+                ✓ Rotação de origens
+              </li>
+
+              <li>
+                ✓ Torra fresca
+              </li>
+
+              <li>
+                ✓ Entrega mensal
+              </li>
+
+            </ul>
+
+            <a
+              href="#"
+              class="btn btn--primary plan__button"
+            >
+              Assinar agora
+            </a>
+
+          </article>
+
+
+          <!-- PLANO 3 -->
+
+          <article class="plan reveal">
+
+            <div class="plan__top">
+
+              <span class="plan__label">
+                Para compartilhar
+              </span>
+
+              <h3 class="plan__title">
+                Escritório
+              </h3>
+
+              <p class="plan__price">
+                R$ 129
+                <span class="plan__price-period">
+                  /mês
+                </span>
+              </p>
+
+            </div>
+
+            <p class="plan__desc">
+              1kg por mês, ideal para compartilhar
+              com a equipe.
+            </p>
+
+            <ul class="plan__features">
+
+              <li>
+                ✓ 1kg de café
+              </li>
+
+              <li>
+                ✓ Diferentes origens
+              </li>
+
+              <li>
+                ✓ Torra fresca
+              </li>
+
+              <li>
+                ✓ Entrega mensal
+              </li>
+
+            </ul>
+
+            <a
+              href="#"
+              class="btn btn--outline plan__button"
+            >
+              Assinar
+            </a>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         DEPOIMENTO
+    ========================== -->
+
+    <section class="testimonial">
+
+      <div class="container">
+
+        <blockquote class="testimonial__quote reveal">
+
+          <span class="testimonial__mark">
+            “
+          </span>
+
+          <p class="testimonial__text">
+            Recebo o pacote toda sexta e o cheiro
+            de grão fresco já muda o clima de casa.
+            Nunca mais comprei café de mercado.
+          </p>
+
+          <cite class="testimonial__cite">
+            Mariana T. · assinante desde 2025
+          </cite>
+
+        </blockquote>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CTA FINAL
+    ========================== -->
+
+    <section class="cta-final">
+
+      <div class="container reveal">
+
+        <p class="section-eyebrow">
+          Café fresco começa aqui
+        </p>
+
+        <h2 class="cta-final__title">
+          Seu próximo café pode ser diferente.
+        </h2>
+
+        <p class="cta-final__text">
+          Escolha uma origem e receba café brasileiro
+          selecionado diretamente na sua casa.
+        </p>
+
+        <a
+          href="#planos"
+          class="btn btn--primary btn--large"
+        >
+          Começar agora
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer class="site-footer">
+
+    <div class="container site-footer__inner">
+
+      <div>
+
+        <span class="site-footer__logo">
+          Raiz
+        </span>
+
+        <p class="site-footer__description">
+          Café brasileiro, fresco e direto da origem.
+        </p>
+
+      </div>
+
+
+      <ul class="site-footer__links">
+
+        <li>
+          <a href="#como-funciona">
+            Como funciona
+          </a>
+        </li>
+
+        <li>
+          <a href="#origem">
+            Nossos cafés
+          </a>
+        </li>
+
+        <li>
+          <a href="#planos">
+            Planos
+          </a>
+        </li>
+
+      </ul>
+
+
+      <span class="site-footer__copyright">
+        © 2026 Raiz Café
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
