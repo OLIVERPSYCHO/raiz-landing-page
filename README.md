@@ -1,28 +1,32 @@
-Projeto — Raiz Café | Landing Page / E-commerce
+# Raiz Café | Landing Page
 
-https://raiz-landing-page.vercel.app/#topo
+Landing page responsiva de uma marca fictícia de assinatura de café especial brasileiro, com foco em experiência do usuário, acessibilidade e conversão.
 
-Desenvolvimento de uma landing page responsiva para uma marca fictícia de cafés especiais, com foco em experiência do usuário, acessibilidade e conversão.
+🔗 **Acesse:** https://raiz-landing-page.vercel.app
 
-Tecnologias:
+## Seções
 
-HTML5
-CSS3
-JavaScript
-SVG
-Google Fonts
-Design responsivo
+- Hero com chamada principal e botões de ação
+- Como funciona, em 3 etapas
+- Nossos cafés: cards das origens (Cerrado Mineiro, Sul de Minas, Mantiqueira de Minas)
+- Planos de assinatura (Essencial, Casa e Escritório)
+- Depoimento de cliente e chamada final
 
-Principais implementações:
+## Principais implementações
 
-Estrutura semântica utilizando HTML5;
-Layout responsivo para desktop e dispositivos móveis;
-Menu de navegação mobile com JavaScript;
-Navegação por âncoras entre seções;
-Animações e microinterações;
-Cards de produtos com imagens reais das embalagens;
-Seção de planos de assinatura;
-Elementos de acessibilidade, incluindo aria-label, aria-expanded, aria-controls e skip-link;
-Otimização de SEO utilizando meta tags e Open Graph;
-Organização do CSS utilizando metodologia BEM;
-SVG personalizado para a identidade visual.
+- Estrutura semântica com HTML5 e CSS organizado com a metodologia BEM
+- Layout responsivo para desktop e dispositivos móveis
+- Menu mobile em JavaScript: fecha ao clicar em um link, ao clicar fora, com a tecla **Esc** e ao redimensionar a tela
+- Animações de entrada com `IntersectionObserver`, respeitando `prefers-reduced-motion`
+- Header que muda de estilo ao rolar a página
+- Acessibilidade: skip-link, `aria-label`, `aria-expanded` e `aria-controls`
+- SEO com meta tags e Open Graph
+- SVG personalizado para a identidade visual
+
+## Tecnologias
+
+HTML5, CSS3, JavaScript, SVG e Google Fonts, com publicação na Vercel.
+
+## Autor
+
+Renan Amaral de Oliveira · [GitHub](https://github.com/OLIVERPSYCHO)
